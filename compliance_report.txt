@@ -1,0 +1,208 @@
+================================================================================================
+CATALAN BUILDING CODE - SPACE COMPLIANCE REPORT
+================================================================================================
+Total spaces input   : 21
+Total spaces checked : 21
+Passed               : 12
+Failed               : 9
+Warnings             : 0
+Compliance rate      : 57.14%
+------------------------------------------------------------------------------------------------
+
+PASSED SPACES (NAMES + DETAILS)
+------------------------------------------------------------------------------------------------
+Space                     Type           Area(m2)  Height(m)    ReqArea     ReqH   Status
+-----------------------------------------------------------------------------------------
+A201                      Corridor           7.80       2.90       1.50     2.30     PASS
+B201                      Corridor           7.80       2.90       1.50     2.30     PASS
+B102                      Living Room       30.14       2.60      16.00     2.60     PASS
+A102                      Living Room       30.14       2.60      16.00     2.60     PASS
+A103                      Kitchen           13.90       2.60       8.00     2.60     PASS
+B103                      Kitchen           13.90       2.60       8.00     2.60     PASS
+B204                      Bathroom           5.44       2.60       4.00     2.30     PASS
+A204                      Bathroom           5.42       2.60       4.00     2.30     PASS
+B203                      Bedroom           26.18       2.60       9.00     2.60     PASS
+A202                      Bedroom           26.12       2.60       9.00     2.60     PASS
+B202                      Bedroom           26.12       2.60       9.00     2.60     PASS
+A203                      Bedroom           26.18       2.60       9.00     2.60     PASS
+
+FAILED SPACES (NAMES + DETAILS + WHY FAILED)
+------------------------------------------------------------------------------------------------
+Space                     Type           Area(m2)  Height(m)    ReqArea     ReqH   Status
+-----------------------------------------------------------------------------------------
+A101                      Unknown           17.94       2.60        N/A      N/A     FAIL
+B104                      Bathroom           4.00       2.60       4.00     2.30     FAIL
+B101                      Unknown           17.94       2.60        N/A      N/A     FAIL
+A205                      Unknown            1.75       2.60        N/A      N/A     FAIL
+B205                      Unknown            1.73       2.60        N/A      N/A     FAIL
+A105                      Unknown            4.92       5.70        N/A      N/A     FAIL
+B105                      Unknown            4.92       5.70        N/A      N/A     FAIL
+R301                      Unknown          145.72       3.00        N/A      N/A     FAIL
+A104                      Bathroom           4.00       2.60       4.00     2.30     FAIL
+
+FAILURE REASONS
+------------------------------------------------------------------------------------------------
+1. A101 (Unknown)
+   - Could not infer space type from Name/LongName/ObjectType.
+2. B104 (Bathroom)
+   - Area 4.00 m2 < required 4.00 m2.
+3. B101 (Unknown)
+   - Could not infer space type from Name/LongName/ObjectType.
+4. A205 (Unknown)
+   - Could not infer space type from Name/LongName/ObjectType.
+5. B205 (Unknown)
+   - Could not infer space type from Name/LongName/ObjectType.
+6. A105 (Unknown)
+   - Could not infer space type from Name/LongName/ObjectType.
+7. B105 (Unknown)
+   - Could not infer space type from Name/LongName/ObjectType.
+8. R301 (Unknown)
+   - Could not infer space type from Name/LongName/ObjectType.
+9. A104 (Bathroom)
+   - Area 4.00 m2 < required 4.00 m2.
+================================================================================================
+
+
+================================================================================================
+WINDOW COMPLIANCE REPORT
+================================================================================================
+Total windows in model        : 24
+Total spaces analyzed         : 21
+Spaces with windows           : 8
+Compliant spaces              : 2
+Non-compliant spaces          : 19
+Unassigned windows            : 10
+------------------------------------------------------------------------------------------------
+
+PASSED SPACES
+------------------------------------------------------------------------------------------------
+Space                     Type          Win# Win.Area(m2)  Floor(m2)    Ratio
+-----------------------------------------------------------------------------
+B102                      Living Room      2        13.35      30.14    0.443
+A102                      Living Room      2        13.35      30.14    0.443
+
+FAILED SPACES (WITH REASONS)
+------------------------------------------------------------------------------------------------
+Space                     Type          Win# Win.Area(m2)  Floor(m2)    Ratio
+-----------------------------------------------------------------------------
+A101                      Unknown          0         0.00      17.94    0.000
+A201                      Corridor         0         0.00       7.80    0.000
+B104                      Bathroom         0         0.00       4.00    0.000
+B101                      Unknown          0         0.00      17.94    0.000
+B201                      Corridor         0         0.00       7.80    0.000
+A205                      Unknown          0         0.00       1.75    0.000
+B205                      Unknown          0         0.00       1.73    0.000
+A105                      Unknown          0         0.00       4.92    0.000
+B105                      Unknown          0         0.00       4.92    0.000
+R301                      Unknown          0         0.00     145.72    0.000
+A103                      Kitchen          1         1.65      13.90    0.119
+B103                      Kitchen          1         1.65      13.90    0.119
+B204                      Bathroom         0         0.00       5.44    0.000
+A204                      Bathroom         0         0.00       5.42    0.000
+A104                      Bathroom         0         0.00       4.00    0.000
+B203                      Bedroom          3         9.02      26.18    0.345
+A202                      Bedroom          2         7.37      26.12    0.282
+B202                      Bedroom          2         7.37      26.12    0.282
+A203                      Bedroom          3         9.02      26.18    0.345
+
+Failure Details:
+1. A101 (Unknown)
+   - Window-to-floor ratio 0.000 < 0.125 (12.5%).
+2. A201 (Corridor)
+   - Window-to-floor ratio 0.000 < 0.125 (12.5%).
+3. B104 (Bathroom)
+   - Window-to-floor ratio 0.000 < 0.125 (12.5%).
+4. B101 (Unknown)
+   - Window-to-floor ratio 0.000 < 0.125 (12.5%).
+5. B201 (Corridor)
+   - Window-to-floor ratio 0.000 < 0.125 (12.5%).
+6. A205 (Unknown)
+   - Window-to-floor ratio 0.000 < 0.125 (12.5%).
+7. B205 (Unknown)
+   - Window-to-floor ratio 0.000 < 0.125 (12.5%).
+8. A105 (Unknown)
+   - Window-to-floor ratio 0.000 < 0.125 (12.5%).
+9. B105 (Unknown)
+   - Window-to-floor ratio 0.000 < 0.125 (12.5%).
+10. R301 (Unknown)
+   - Window-to-floor ratio 0.000 < 0.125 (12.5%).
+11. A103 (Kitchen)
+   - Window-to-floor ratio 0.119 < 0.125 (12.5%).
+12. B103 (Kitchen)
+   - Window-to-floor ratio 0.119 < 0.125 (12.5%).
+13. B204 (Bathroom)
+   - Window-to-floor ratio 0.000 < 0.125 (12.5%).
+14. A204 (Bathroom)
+   - Window-to-floor ratio 0.000 < 0.125 (12.5%).
+15. A104 (Bathroom)
+   - Window-to-floor ratio 0.000 < 0.125 (12.5%).
+16. B203 (Bedroom)
+   - M_Fixed:819mm x 759mm:819mm x 759mm:147994: 0.82m x 0.76m < 0.60m x 1.00m.
+17. A202 (Bedroom)
+   - M_Fixed:819mm x 759mm:819mm x 759mm:181583: 0.82m x 0.76m < 0.60m x 1.00m.
+18. B202 (Bedroom)
+   - M_Fixed:819mm x 759mm:819mm x 759mm:180864: 0.82m x 0.76m < 0.60m x 1.00m.
+19. A203 (Bedroom)
+   - M_Fixed:819mm x 759mm:819mm x 759mm:149537: 0.82m x 0.76m < 0.60m x 1.00m.
+
+UNASSIGNED WINDOWS
+------------------------------------------------------------------------------------------------
+1. M_Casement:819mm x 759mm:819mm x 759mm:148607 | size=0.819 x 0.7590000000000007 m | area=0.6216210000000005 m2 | orientation=Unknown
+2. M_Fixed:819mm x 759mm:819mm x 759mm:148722 | size=0.8189999999999995 x 0.7589999999999986 m | area=0.6216209999999984 m2 | orientation=Unknown
+3. M_Casement:819mm x 759mm:819mm x 759mm:149736 | size=0.8190000000000001 x 0.7590000000000007 m | area=0.6216210000000006 m2 | orientation=Unknown
+4. M_Fixed:819mm x 759mm:819mm x 759mm:149924 | size=0.8190000000000001 x 0.758999999999998 m | area=0.6216209999999984 m2 | orientation=Unknown
+5. M_Fixed:819mm x 759mm:819mm x 759mm:180663 | size=0.8190000000000001 x 0.758999999999998 m | area=0.6216209999999984 m2 | orientation=Unknown
+6. M_Casement:819mm x 759mm:819mm x 759mm:180994 | size=0.8190000000000001 x 0.7590000000000007 m | area=0.6216210000000006 m2 | orientation=Unknown
+7. M_Fixed:819mm x 759mm:819mm x 759mm:181285 | size=0.8189999999999995 x 0.758999999999998 m | area=0.621620999999998 m2 | orientation=Unknown
+8. M_Casement:819mm x 759mm:819mm x 759mm:181548 | size=0.8190000000000001 x 0.7590000000000007 m | area=0.6216210000000006 m2 | orientation=Unknown
+9. M_Skylight:1180 x 1170mm:1180 x 1170mm:185337 | size=1.172537682966587 x 0.6348000000000008 m | area=0.7443269211471903 m2 | orientation=Unknown
+10. M_Skylight:1180 x 1170mm:1180 x 1170mm:185718 | size=1.172537682966587 x 0.6348000000000008 m | area=0.7443269211471903 m2 | orientation=Unknown
+================================================================================================
+
+
+================================================================================================
+FIRE SAFETY ROUTE ANALYSIS
+================================================================================================
+Total spaces               : 21
+Total doors                : 14
+Graph nodes                : 21
+Graph edges                : 12
+Longest route distance (m) : 3.12
+Compliant                  : False
+------------------------------------------------------------------------------------------------
+Longest Route
+------------------------------------------------------------------------------------------------
+Start space: B104
+Path: B104 -> B101
+
+Exit Spaces
+------------------------------------------------------------------------------------------------
+1. A102
+2. A101
+3. B101
+4. B102
+
+Safety Issues
+------------------------------------------------------------------------------------------------
+1. A201: no route to any exit space.
+2. B201: no route to any exit space.
+3. A205: no route to any exit space.
+4. B205: no route to any exit space.
+5. A105: no route to any exit space.
+6. B105: no route to any exit space.
+7. R301: no route to any exit space.
+8. A103: no route to any exit space.
+9. B103: no route to any exit space.
+10. B204: no route to any exit space.
+11. A204: no route to any exit space.
+12. B203: no route to any exit space.
+13. A202: no route to any exit space.
+14. B202: no route to any exit space.
+15. A203: no route to any exit space.
+16. M_Single-Flush:0762 x 2032mm:0762 x 2032mm:150173: width 0.76 m < 0.80 m.
+17. M_Single-Flush:0762 x 2032mm:0762 x 2032mm:204034: width 0.76 m < 0.80 m.
+18. M_Single-Flush:0762 x 2032mm:0762 x 2032mm:150257: width 0.76 m < 0.80 m.
+19. M_Single-Flush:0762 x 2032mm:0762 x 2032mm:203720: width 0.76 m < 0.80 m.
+20. A201: corridor width missing (cannot verify >= 1.2 m).
+21. B201: corridor width missing (cannot verify >= 1.2 m).
+================================================================================================
